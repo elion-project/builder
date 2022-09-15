@@ -26,8 +26,8 @@ function readFolder(filePath) {
 }
 
 function resolveLink(name) {
-    return readFolder(path.resolve(__dirname, "../../../../", name)).length
-        ? path.resolve(__dirname, "../../../../", name)
+    return readFolder(path.resolve(__dirname, "../../../../../", name)).length
+        ? path.resolve(__dirname, "../../../../../", name)
         : path.resolve(__dirname, "../../../", "node_modules", name);
 }
 

@@ -2,6 +2,7 @@
 
 const path = require("path");
 const build = require("./build");
+const startScreen = require("../utils/start.util");
 
 // noinspection BadExpressionStatementJS
 require("yargs")(
@@ -34,14 +35,16 @@ require("yargs")(
                 type: "string",
             },
         },
-        async (args) =>
-            build({
+        async (args) => {
+            await startScreen();
+            return build({
                 buildFolder: args.b,
                 buildType: "development",
                 entry: path.resolve(process.cwd(), args.entry),
                 debug: args.debug,
                 watch: true,
-            })
+            });
+        }
     )
     .command(
         "build",
@@ -72,13 +75,15 @@ require("yargs")(
                 type: "string",
             },
         },
-        async (args) =>
-            build({
+        async (args) => {
+            await startScreen();
+            return build({
                 buildFolder: args.b,
                 buildType: "production",
                 entry: path.resolve(process.cwd(), args.entry),
                 debug: false,
                 watch: false,
-            })
+            });
+        }
     )
     .help().argv;
