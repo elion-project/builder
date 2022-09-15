@@ -8,9 +8,6 @@ const CopyPlugin = require("copy-webpack-plugin");
 const WebpackShellPluginNext = require("webpack-shell-plugin-next");
 const NodemonPlugin = require("nodemon-webpack-plugin");
 
-function resolveLink(name) {
-    return path.resolve(__dirname, "../../../", "node_modules", name);
-}
 function readFile(pathFile) {
     return new Promise((resolve, reject) => {
         fs.readFile(pathFile, "utf8", (err, fileContains) => {
@@ -20,13 +17,18 @@ function readFile(pathFile) {
     });
 }
 
-async function readFolder(filePath) {
-    return new Promise((resolve) => {
-        fs.readdir(filePath, "utf8", (err, list) => {
-            if (err) resolve([]);
-            resolve(list);
-        });
-    });
+function readFolder(filePath) {
+    try {
+        return fs.readdirSync(filePath, "utf8");
+    } catch (e) {
+        return [];
+    }
+}
+
+function resolveLink(name) {
+    return readFolder(path.resolve(__dirname, "../../../../", name)).length
+        ? path.resolve(__dirname, "../../../../", name)
+        : path.resolve(__dirname, "../../../", "node_modules", name);
 }
 
 function writeFile(pathFile, content) {
