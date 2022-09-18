@@ -201,16 +201,16 @@ async function build(params) {
                         },
                         use: defaultBabelConfig,
                     },
-                    {
-                        test: /\.rs$/,
-                        exclude: /node_modules/,
-                        use: [
-                            defaultBabelConfig,
-                            {
-                                loader: resolveLink("rust-wasmpack-loader"),
-                            },
-                        ],
-                    },
+                    // {
+                    //     test: /\.rs$/,
+                    //     exclude: /node_modules/,
+                    //     use: [
+                    //         defaultBabelConfig,
+                    //         {
+                    //             loader: resolveLink("rust-wasmpack-loader"),
+                    //         },
+                    //     ],
+                    // },
                     {
                         test: /\.json$/,
                         exclude: /node_modules/,
