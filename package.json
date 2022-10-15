@@ -1,16 +1,16 @@
 {
     "name": "@node-elion/builder",
-    "canonicalName": "Elion Builder",
+    "canonicalName": "Elion",
     "version": "1.5.0",
     "description": "Super scalable enterprise Node.js server library",
-    "main": "./src/cli/index.js",
+    "main": "./lib/build/index.js",
     "scripts": {
         "release": "npx standard-version",
-        "cli": "node ./src/cli/index.js"
+        "cli": "node ./lib/cli/index.js"
     },
     "bin": {
-        "elion-builder": "./src/cli/index.js",
-        "ebi": "./src/cli/index.js"
+        "elion-builder": "./lib/cli/index.js",
+        "ebi": "./lib/cli/index.js"
     },
     "repository": {
         "type": "git",
@@ -26,9 +26,14 @@
         "@jsdevtools/file-path-filter": "^3.0.2",
         "babel-loader": "^8.2.5",
         "chalk": "^5.0.1",
+        "cli-spinners": "^2.7.0",
         "copy-webpack-plugin": "^11.0.0",
         "figlet": "^1.5.2",
+        "glob": "^8.0.3",
+        "lodash": "^4.17.21",
         "nodemon-webpack-plugin": "^4.8.1",
+        "ora": "^6.1.2",
+        "rust-wasmpack-loader": "^2.1.0",
         "source-map-support": "^0.5.21",
         "ts-loader": "^9.3.1",
         "webpack": "^5.74.0",
@@ -43,7 +48,13 @@
     },
     "homepage": "https://github.com/elion-project/builder#readme",
     "keywords": [
-        "test"
+        "Elion",
+        "Eli",
+        "Builder",
+        "Webpack",
+        "bundler",
+        "esm",
+        "require"
     ],
     "devDependencies": {
         "@typescript-eslint/eslint-plugin": "^5.36.2",
@@ -55,5 +66,13 @@
         "eslint-plugin-import": "^2.26.0",
         "eslint-plugin-jest": "^27.0.4",
         "eslint-plugin-prettier": "^4.2.1"
-    }
+    },
+    "engines": {
+        "node": ">=16.x"
+    },
+    "files": [
+        "src",
+        "LICENSE",
+        "README.md"
+    ]
 }
