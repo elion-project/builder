@@ -2,6 +2,14 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.1.0](https://github.com/elion-project/builder/compare/v2.0.0...v2.1.0) (2022-10-16)
+
+
+### Features
+
+* create plugin for `ESM` integration ([b9f952e](https://github.com/elion-project/builder/commit/b9f952e12e259bf7b06b409896c7850fd14a5e15))
+* Update example project ([9e08a37](https://github.com/elion-project/builder/commit/9e08a37f48fb3a631005ea8d8c0981c81ebf1b38))
+
 ## [2.0.0](https://github.com/elion-project/builder/compare/v1.5.0...v2.0.0) (2022-10-15)
 
 
