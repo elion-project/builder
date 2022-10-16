@@ -69,7 +69,7 @@
         "node": ">=16.x"
     },
     "files": [
-        "src",
+        "lib",
         "LICENSE",
         "README.md"
     ]
