@@ -1,7 +1,7 @@
 {
     "name": "@node-elion/builder",
     "canonicalName": "Elion",
-    "version": "2.1.1",
+    "version": "2.1.2",
     "description": "Super scalable enterprise Node.js server library",
     "main": "./lib/build/index.js",
     "scripts": {
