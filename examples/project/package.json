@@ -1,13 +1,14 @@
 {
-  "name": "project",
-  "version": "1.0.0",
-  "scripts": {
-    "build": "ebi start --entry index.js"
-  },
-  "devDependencies": {
-    "@node-elion/builder": "../../"
-  },
-  "dependencies": {
-    "chalk": "^5.1.0"
-  }
+    "name": "project",
+    "version": "1.0.0",
+    "scripts": {
+        "start": "ebi start --entry index.js",
+        "build": "ebi build --entry index.js"
+    },
+    "devDependencies": {
+        "@node-elion/builder": "../../"
+    },
+    "dependencies": {
+        "chalk": "^5.1.0"
+    }
 }

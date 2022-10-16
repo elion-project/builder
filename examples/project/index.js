@@ -1,8 +1,8 @@
-import chalk from "chalk";
+import chalk, { modifiers } from "chalk";
 
-console.log("test");
-console.log(chalk.green("xf"));
 (async () => {
-    const wantError = true;
-    await console.log("Good day for something");
+    await console.log("Hello World");
+    console.log("chalk =>", chalk);
+    console.log("chalk modifiers =>", modifiers);
+    console.log(chalk.greenBright("Here is cool color used"));
 })();
