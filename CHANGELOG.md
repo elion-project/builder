@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://github.com/elion-project/builder/compare/v2.1.3...v2.2.0) (2022-10-16)
+
+
+### Features
+
+* add ESM support of dynamic import ([6f52d54](https://github.com/elion-project/builder/commit/6f52d542691d075394508fc223186d8c60855a04))
+
 ### [2.1.3](https://github.com/elion-project/builder/compare/v2.1.2...v2.1.3) (2022-10-16)
 
 ### [2.1.2](https://github.com/elion-project/builder/compare/v2.1.1...v2.1.2) (2022-10-16)
