@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.3.0](https://github.com/elion-project/builder/compare/v2.2.0...v2.3.0) (2022-10-27)
+
+
+### Features
+
+* add ability to pass plugins-object-config ([446ff87](https://github.com/elion-project/builder/commit/446ff87f6c9270fa3e5e51623443d9de49fb5a13))
+
+
+### Bug Fixes
+
+* `moveCursor` function is not avaliable on Ubuntu, so use `try...catch` for it ([8514b50](https://github.com/elion-project/builder/commit/8514b50559ddd80b548220881f3f753f7a95981a))
+* add build folder to ignore ([8aba025](https://github.com/elion-project/builder/commit/8aba02599a6249c2e844617f8476acffc2b448cd))
+* add soruce-map to included deps ([9995db9](https://github.com/elion-project/builder/commit/9995db9ad4aabd874e5dec2c2b5968cbab950a0c))
+* bad resolving `exports` when build ([b55542c](https://github.com/elion-project/builder/commit/b55542cda31493295ea5a1566de1c657591487e6))
+
 ## [2.2.0](https://github.com/elion-project/builder/compare/v2.1.3...v2.2.0) (2022-10-16)
 
 
