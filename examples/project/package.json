@@ -3,7 +3,8 @@
     "version": "1.0.0",
     "scripts": {
         "start": "ebi start --entry index.js",
-        "build": "ebi build --entry index.js"
+        "build": "ebi build --entry index.js",
+        "run": "node build/main.js"
     },
     "devDependencies": {
         "@node-elion/builder": "../../"
