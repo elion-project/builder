@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.3.1](https://github.com/elion-project/builder/compare/v2.3.0...v2.3.1) (2022-11-04)
+
+
+### Bug Fixes
+
+* Add buffer-from ([d0a7996](https://github.com/elion-project/builder/commit/d0a7996f17b473ea91e0bdbb24da2062304d5a95))
+
 ## [2.3.0](https://github.com/elion-project/builder/compare/v2.2.0...v2.3.0) (2022-10-27)
 
 
