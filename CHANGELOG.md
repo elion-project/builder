@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.3.2](https://github.com/elion-project/builder/compare/v2.3.1...v2.3.2) (2022-11-05)
+
+
+### Bug Fixes
+
+* remove all nested components and move to allowList ([13ad086](https://github.com/elion-project/builder/commit/13ad086ba2047f971e40804bbc745ea8e867bd61))
+
 ### [2.3.1](https://github.com/elion-project/builder/compare/v2.3.0...v2.3.1) (2022-11-04)
 
 
