@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.5.1](https://github.com/elion-project/builder/compare/v2.5.0...v2.5.1) (2023-01-13)
+
+
+### Bug Fixes
+
+* Deny class and function name changing ([1b38537](https://github.com/elion-project/builder/commit/1b3853727dcaa002405a66d83efc507fb5d64d85))
+
 ## [2.5.0](https://github.com/elion-project/builder/compare/v2.4.0...v2.5.0) (2023-01-13)
 
 
