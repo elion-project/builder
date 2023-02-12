@@ -1,9 +1,13 @@
 {
     "compilerOptions": {
+        "composite": true,
         "noImplicitAny": true,
         "sourceMap": true,
         "module": "es2020",
-        "target": "es5",
+        "target": "ES6",
+        "lib": [
+            "es6"
+        ],
         "allowJs": true,
         "moduleResolution": "node"
     }
