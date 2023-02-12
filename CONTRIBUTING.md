@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for considering contributing to `@elion-project/builder`!
+Thanks for considering contributing to `@node-elion/builder`!
 
 ## Opening issues
 

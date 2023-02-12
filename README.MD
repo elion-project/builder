@@ -4,7 +4,7 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/elion-project/builder/badge.svg)](https://snyk.io/test/github/elion-project/builder)
 [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=elion-project_builder&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=elion-project_builder)
 
-# @elion/builder
+# @node-elion/builder
 
 this package is part of the [Elion project](https://github.com/elion-project).
 
@@ -14,17 +14,17 @@ configuration
 
 ## Installation
 
-Install `@elion/builder` with npm
+Install `@node-elion/builder` with npm
 
 > This package is recommended to be installed as a dev dependency
 
 ```shell
-npm i --save-dev rust-wasmpack-loader
+npm i --save-dev @node-elion/builder
 ```
 
 ## Usage
 
-Update `package.json` to be able to use `@elion/builder` package:
+Update `package.json` to be able to use `@node-elion/builder` package:
 
 ```json5
 /* package.json */
