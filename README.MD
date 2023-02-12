@@ -26,7 +26,7 @@ npm i --save-dev rust-wasmpack-loader
 
 Update `package.json` to be able to use `@elion/builder` package:
 
-```json
+```json5
 /* package.json */
 {
     /*...*/
