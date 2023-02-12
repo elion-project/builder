@@ -2,7 +2,7 @@ import chalk, { modifiers } from "chalk";
 
 class SomeClass {}
 (async () => {
-    (await import("./dynamic")).default();
+    (await import("../dynamic")).default();
     await console.log("Hello World");
     console.log("SomeClass class name", SomeClass.name);
     console.log("chalk =>", chalk);

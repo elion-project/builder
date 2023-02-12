@@ -1,9 +1,9 @@
 {
-    "name": "project",
+    "name": "example-project",
     "version": "1.0.0",
     "scripts": {
-        "start": "ebi start --entry index.js",
-        "build": "ebi build --entry index.js",
+        "start": "ebi start",
+        "build": "ebi build",
         "run": "node build/main.js"
     },
     "devDependencies": {
