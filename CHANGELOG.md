@@ -4,9 +4,6 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [3.0.0](https://github.com/elion-project/builder/compare/v2.6.0...v3.0.0) (2023-02-12)
 
-## [2.6.0](https://github.com/elion-project/builder/compare/v2.5.1...v2.6.0) (2023-02-12)
-
-
 ### Features
 
 * move `index.js` into `src/index.js` (example) ([760bbc6](https://github.com/elion-project/builder/commit/760bbc6d892a9098268d0a2ec666afb5d1ca64ec))
@@ -15,6 +12,9 @@ All notable changes to this project will be documented in this file. See [standa
 ### Bug Fixes
 
 * Upgrade error post-processing ([494d70b](https://github.com/elion-project/builder/commit/494d70b97f5fb906c94f03b5eb54c1f376b6cc6d))
+
+### BREAKING CHANGES
+* BREAKING: moved from @babel to [esbuild](https://esbuild.github.io/). Updated documentation. Terser minimizer plugin is now deprecated ([9f9d568](https://github.com/elion-project/builder/commit/9f9d568bd382c0911942eb29e536177db9de5641))
 
 ### [2.5.1](https://github.com/elion-project/builder/compare/v2.5.0...v2.5.1) (2023-01-13)
 
