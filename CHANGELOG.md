@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.6.0](https://github.com/elion-project/builder/compare/v2.5.1...v2.6.0) (2023-02-12)
+
+
+### Features
+
+* move `index.js` into `src/index.js` (example) ([760bbc6](https://github.com/elion-project/builder/commit/760bbc6d892a9098268d0a2ec666afb5d1ca64ec))
+
+
+### Bug Fixes
+
+* Upgrade error post-processing ([494d70b](https://github.com/elion-project/builder/commit/494d70b97f5fb906c94f03b5eb54c1f376b6cc6d))
+
 ### [2.5.1](https://github.com/elion-project/builder/compare/v2.5.0...v2.5.1) (2023-01-13)
 
 
