@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.3](https://github.com/elion-project/builder/compare/v3.0.2...v3.0.3) (2023-02-14)
+
+
+### Bug Fixes
+
+* Added `js` loader param for `defaultJsLoader` ([b7d5f8d](https://github.com/elion-project/builder/commit/b7d5f8d8c7449ae73b035b3294ef79bacc562f20))
+
 ### [3.0.2](https://github.com/elion-project/builder/compare/v3.0.1...v3.0.2) (2023-02-12)
 
 
