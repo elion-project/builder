@@ -1,6 +1,5 @@
 {
     "name": "@node-elion/builder",
-    "canonicalName": "Elion",
     "version": "3.0.3",
     "description": "Super scalable enterprise Node.js server library",
     "main": "./lib/build/index.js",
@@ -23,19 +22,19 @@
         "chalk": "^5.2.0",
         "cli-spinners": "^2.7.0",
         "copy-webpack-plugin": "^11.0.0",
-        "esbuild-loader": "^3.0.0",
+        "esbuild-loader": "^3.0.1",
         "lodash": "^4.17.21",
         "nodemon-webpack-plugin": "^4.8.1",
         "ora": "^6.1.2",
         "source-map-support": "^0.5.21",
-        "terser-webpack-plugin": "^5.3.6",
+        "terser-webpack-plugin": "^5.3.7",
         "ts-loader": "^9.4.2",
-        "webpack": "^5.75.0",
+        "webpack": "^5.76.1",
         "webpack-cli": "^5.0.1",
         "webpack-node-externals": "^3.0.0",
         "webpack-shell-plugin-next": "^2.3.1",
         "worker-loader": "^3.0.8",
-        "yargs": "^17.6.2"
+        "yargs": "^17.7.1"
     },
     "bugs": {
         "url": "https://github.com/elion-project/builder/issues"
@@ -51,16 +50,16 @@
         "require"
     ],
     "devDependencies": {
-        "@typescript-eslint/eslint-plugin": "^5.51.0",
-        "@typescript-eslint/parser": "^5.51.0",
-        "eslint": "^8.34.0",
+        "@typescript-eslint/eslint-plugin": "^5.55.0",
+        "@typescript-eslint/parser": "^5.55.0",
+        "eslint": "^8.36.0",
         "eslint-config-airbnb-base": "^15.0.0",
         "eslint-config-airbnb-typescript": "^17.0.0",
-        "eslint-config-prettier": "^8.6.0",
+        "eslint-config-prettier": "^8.7.0",
         "eslint-plugin-import": "^2.27.5",
         "eslint-plugin-jest": "^27.2.1",
         "eslint-plugin-prettier": "^4.2.1",
-        "npm-check-updates": "^16.7.4"
+        "npm-check-updates": "^16.7.12"
     },
     "engines": {
         "node": ">=16.13.x"
