@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.5](https://github.com/elion-project/builder/compare/v3.0.4...v3.0.5) (2023-03-26)
+
+
+### Bug Fixes
+
+* Add `additionalModuleDirs` from `entry` path ([e0fab59](https://github.com/elion-project/builder/commit/e0fab599c58b325a57390d9501f820a6900d36e5))
+
 ### [3.0.4](https://github.com/elion-project/builder/compare/v3.0.3...v3.0.4) (2023-03-14)
 
 
