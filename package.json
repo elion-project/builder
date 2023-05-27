@@ -1,6 +1,6 @@
 {
     "name": "@node-elion/builder",
-    "version": "3.0.6",
+    "version": "3.0.7",
     "description": "Super scalable enterprise Node.js server library",
     "main": "./lib/build/index.js",
     "scripts": {

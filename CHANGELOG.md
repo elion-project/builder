@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.0.7](https://github.com/elion-project/builder/compare/v3.0.6...v3.0.7) (2023-05-27)
+
+
+### Bug Fixes
+
+* Upgrade project dependencies. ([f725ab9](https://github.com/elion-project/builder/commit/f725ab928ff98b4da144740579c3114bb6372811))
+
 ### [3.0.6](https://github.com/elion-project/builder/compare/v3.0.5...v3.0.6) (2023-04-23)
 
 
