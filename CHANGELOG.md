@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.1.0](https://github.com/elion-project/builder/compare/v3.0.7...v3.1.0) (2023-06-14)
+
+
+### Features
+
+* Add support of plugin variables ([6b26950](https://github.com/elion-project/builder/commit/6b26950e415fac1556d521db551c27f553420d2f))
+
 ### [3.0.7](https://github.com/elion-project/builder/compare/v3.0.6...v3.0.7) (2023-05-27)
 
 
