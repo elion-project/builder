@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [3.2.0](https://github.com/elion-project/builder/compare/v3.1.0...v3.2.0) (2023-06-15)
+
+
+### Features
+
+* Add support of tmp folder ([8c57a06](https://github.com/elion-project/builder/commit/8c57a06f17c264280ca313cdac1191863ad159f7))
+
 ## [3.1.0](https://github.com/elion-project/builder/compare/v3.0.7...v3.1.0) (2023-06-14)
 
 
