@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [3.2.1](https://github.com/elion-project/builder/compare/v3.2.0...v3.2.1) (2023-08-16)
+
+
+### Bug Fixes
+
+* lag when no previous plugins selected ([62be36e](https://github.com/elion-project/builder/commit/62be36eb48045ddc39a8ddba46f99282287543fa))
+
 ## [3.2.0](https://github.com/elion-project/builder/compare/v3.1.0...v3.2.0) (2023-06-15)
 
 
