@@ -2,7 +2,7 @@
     "name": "example-project",
     "version": "1.0.0",
     "scripts": {
-        "start": "ebi start",
+        "start": "ebi start -b tmp",
         "build": "ebi build",
         "run": "node build/main.js"
     },
