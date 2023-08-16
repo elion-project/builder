@@ -50,7 +50,7 @@ Update `package.json` to be able to use `@node-elion/builder` package:
 |       `--plugin-config` | `-l`  | `string[]` |      `[]`      | Plugin config                                                                                                         |
 | `--plugins-config-file` | `-c`  |  `string`  |                | Plugin config file (should be `.json` format)                                                                         |
 |               `--debug` | `-d`  | `boolean`  |    `false`     | pass Inspect argument (`--inspect`) to started process                                                                |
-|        `--build-folder` | `-b`  |  `string`  | `./.devbuild`  | Folder, where built files will be stored                                                                              |
+|        `--build-folder` | `-b`  |  `string`  | `./.devbuild`  | Folder, where built files will be stored (you can use `tmp` for in order to use the temporary folder of your device)  | 
 
 ### `ebi build`
 
