@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [4.0.1](https://github.com/elion-project/builder/compare/v4.0.0...v4.0.1) (2023-08-16)
+
+
+### Bug Fixes
+
+* update docs ([c20d40c](https://github.com/elion-project/builder/commit/c20d40c7a81676a192aa3ea79a42ad9c519b8dca))
+
 ## [4.0.0](https://github.com/elion-project/builder/compare/v3.2.1...v4.0.0) (2023-08-16)
 
 
