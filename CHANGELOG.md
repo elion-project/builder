@@ -2,6 +2,24 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [4.0.0](https://github.com/elion-project/builder/compare/v3.2.1...v4.0.0) (2023-08-16)
+
+
+### ⚠ BREAKING CHANGES
+
+* `assets-folder` parameter now is `null` by default.
+
+### Features
+
+* `assets-folder` parameter now is `null` by default. ([2b0c4ec](https://github.com/elion-project/builder/commit/2b0c4ec6c232263299ff76f79b9489872e362bea))
+* remove `TerserPlugin`. Update `tmp` output imports ([78f41bf](https://github.com/elion-project/builder/commit/78f41bf5444480dc0e63e66b94ebe5afcefce73f))
+
+
+### Bug Fixes
+
+* approve code styling ([3ef7d14](https://github.com/elion-project/builder/commit/3ef7d141ef551510f985ecf27ae07760ebdaaec1))
+* Update packages ([5635f2b](https://github.com/elion-project/builder/commit/5635f2b7156365b081faf2c30029969af2389846))
+
 ### [3.2.1](https://github.com/elion-project/builder/compare/v3.2.0...v3.2.1) (2023-08-16)
 
 
