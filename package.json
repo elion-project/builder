@@ -24,7 +24,7 @@
         "copy-webpack-plugin": "^11.0.0",
         "esbuild-loader": "^4.0.0",
         "lodash": "^4.17.21",
-        "nodemon-webpack-plugin": "^4.8.1",
+        "nodemon-webpack-plugin": "^4.8.2",
         "ora": "^7.0.1",
         "source-map-support": "^0.5.21",
         "ts-loader": "^9.4.4",
