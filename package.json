@@ -20,15 +20,15 @@
     "dependencies": {
         "buffer-from": "^1.1.2",
         "chalk": "^5.3.0",
-        "cli-spinners": "^2.9.0",
+        "cli-spinners": "^2.9.1",
         "copy-webpack-plugin": "^11.0.0",
-        "esbuild-loader": "^4.0.0",
+        "esbuild-loader": "^4.0.2",
         "lodash": "^4.17.21",
-        "nodemon-webpack-plugin": "^4.8.1",
+        "nodemon-webpack-plugin": "^4.8.2",
         "ora": "^7.0.1",
         "source-map-support": "^0.5.21",
-        "ts-loader": "^9.4.4",
-        "webpack": "^5.88.2",
+        "ts-loader": "^9.5.1",
+        "webpack": "^5.89.0",
         "webpack-cli": "^5.1.4",
         "webpack-node-externals": "^3.0.0",
         "webpack-shell-plugin-next": "^2.3.1",
@@ -49,19 +49,23 @@
         "require"
     ],
     "devDependencies": {
-        "@typescript-eslint/eslint-plugin": "^6.4.0",
-        "@typescript-eslint/parser": "^6.4.0",
-        "eslint": "^8.47.0",
+        "@typescript-eslint/eslint-plugin": "^6.11.0",
+        "@typescript-eslint/parser": "^6.11.0",
+        "eslint": "^8.54.0",
         "eslint-config-airbnb-base": "^15.0.0",
         "eslint-config-airbnb-typescript": "^17.1.0",
         "eslint-config-prettier": "^9.0.0",
-        "eslint-plugin-import": "^2.28.0",
-        "eslint-plugin-jest": "^27.2.3",
-        "eslint-plugin-prettier": "^5.0.0",
-        "npm-check-updates": "^16.11.1"
+        "eslint-plugin-import": "^2.29.0",
+        "eslint-plugin-jest": "^27.6.0",
+        "eslint-plugin-prettier": "^5.0.1",
+        "npm-check-updates": "^16.14.11"
     },
     "engines": {
-        "node": ">=16.13.x"
+        "node": ">=18.0.0"
+    },
+    "volta": {
+        "node": "18.18.2",
+        "npm": "9.8.1"
     },
     "files": [
         "lib",

@@ -10,6 +10,6 @@
         "@node-elion/builder": "../../"
     },
     "dependencies": {
-        "chalk": "^5.2.0"
+        "chalk": "^5.3.0"
     }
 }
