@@ -2,6 +2,17 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.0.0](https://github.com/elion-project/builder/compare/v4.0.1...v5.0.0) (2023-11-20)
+
+
+### ⚠ BREAKING CHANGES
+
+* Drop `Node.js v16` support. Upgrade dependencies. Upgrade `LICENSE` year.
+
+### Features
+
+* Drop `Node.js v16` support. Upgrade dependencies. Upgrade `LICENSE` year. ([f60e073](https://github.com/elion-project/builder/commit/f60e073c86686beb6183664a4d395661f0fd34ab))
+
 ### [4.0.1](https://github.com/elion-project/builder/compare/v4.0.0...v4.0.1) (2023-08-16)
 
 
