@@ -20,7 +20,7 @@
     "dependencies": {
         "buffer-from": "^1.1.2",
         "chalk": "^5.3.0",
-        "cli-spinners": "^2.9.1",
+        "cli-spinners": "^2.9.2",
         "copy-webpack-plugin": "^11.0.0",
         "esbuild-loader": "^4.0.2",
         "lodash": "^4.17.21",
