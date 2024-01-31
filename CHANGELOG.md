@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [5.0.1](https://github.com/elion-project/builder/compare/v5.0.0...v5.0.1) (2024-01-31)
+
+
+### Bug Fixes
+
+* Upgrade dependencies; Update `LICENSE` year; Add release commands ([0d3ae22](https://github.com/elion-project/builder/commit/0d3ae22f955d1f32140931f95ef4c8222aabb1ba))
+
 ## [5.0.0](https://github.com/elion-project/builder/compare/v4.0.1...v5.0.0) (2023-11-20)
 
 
