@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [5.1.0](https://github.com/elion-project/builder/compare/v5.0.1...v5.1.0) (2024-03-13)
+
+
+### Features
+
+* Add support for custom arguments in started process ([5e23e64](https://github.com/elion-project/builder/commit/5e23e64695f763b93bd6e142405e6d80a579a3e1))
+
 ### [5.0.1](https://github.com/elion-project/builder/compare/v5.0.0...v5.0.1) (2024-01-31)
 
 
