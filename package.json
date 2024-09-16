@@ -28,7 +28,7 @@
         "esbuild-loader": "^4.0.3",
         "lodash": "^4.17.21",
         "nodemon-webpack-plugin": "^4.8.2",
-        "ora": "^8.0.1",
+        "ora": "^8.1.0",
         "source-map-support": "^0.5.21",
         "ts-loader": "^9.5.1",
         "webpack": "^5.90.0",
