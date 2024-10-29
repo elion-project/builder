@@ -6,7 +6,7 @@
 
 # @node-elion/builder
 
-this package is part of the [Elion project](https://github.com/elion-project).
+This package is part of the [Elion project](https://github.com/elion-project).
 
 This package was created to be able quickly and painlessly build `js/ts` files while ignoring problems
 with `commonJS/ESM` modules. To get started, you just need to install this package and change the project's build
