@@ -19,21 +19,21 @@
     "license": "MIT",
     "dependencies": {
         "buffer-from": "^1.1.2",
-        "chalk": "^5.3.0",
+        "chalk": "^5.4.1",
         "cli-spinners": "^2.9.2",
-        "copy-webpack-plugin": "^12.0.2",
-        "esbuild-loader": "^4.2.2",
+        "copy-webpack-plugin": "^13.0.0",
+        "esbuild-loader": "^4.3.0",
         "lodash": "^4.17.21",
         "nodemon-webpack-plugin": "^4.8.2",
-        "ora": "^8.1.0",
+        "ora": "^8.2.0",
         "source-map-support": "^0.5.21",
-        "ts-loader": "^9.5.1",
-        "webpack": "^5.95.0",
-        "webpack-cli": "^5.1.4",
+        "ts-loader": "^9.5.2",
+        "webpack": "^5.100.1",
+        "webpack-cli": "^6.0.1",
         "webpack-node-externals": "^3.0.0",
         "webpack-shell-plugin-next": "^2.3.2",
         "worker-loader": "^3.0.8",
-        "yargs": "^17.7.2"
+        "yargs": "^18.0.0"
     },
     "bugs": {
         "url": "https://github.com/elion-project/builder/issues"
@@ -55,17 +55,17 @@
         "eslint-config-airbnb-base": "^15.0.0",
         "eslint-config-airbnb-typescript": "^18.0.0",
         "eslint-config-prettier": "^9.1.0",
-        "eslint-plugin-import": "^2.31.0",
-        "eslint-plugin-jest": "^28.8.3",
-        "eslint-plugin-prettier": "^5.2.1",
-        "npm-check-updates": "^17.1.9"
+        "eslint-plugin-import": "^2.32.0",
+        "eslint-plugin-jest": "^28.14.0",
+        "eslint-plugin-prettier": "^5.5.1",
+        "npm-check-updates": "^18.0.1"
     },
     "engines": {
-        "node": ">=18.0.0"
+        "node": ">=20.0.0"
     },
     "volta": {
-        "node": "18.20.4",
-        "npm": "10.7.0"
+        "node": "20.19.3",
+        "npm": "11.4.2"
     },
     "files": [
         "lib",
